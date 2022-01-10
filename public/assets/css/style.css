@@ -1,0 +1,49 @@
+/*================================================================================
+	Item Name: Frest HTML Admin Template
+	Version: 1.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+.pl-3, .px-3 {
+    padding-left: 1rem !important;
+}
+.py-3 {
+	padding: 10px !important;
+}
+.pl-10 {
+    padding-left: 60px !important;
+}
+.w-32{
+	width: 190px !important;
+}
+.py-2{
+	padding: 10px !important;
+}
+/* .pl-2{
+	padding-left: 25px !important;
+}
+.p-2{
+	padding: 0px !important;
+	padding-left: 10px !important;
+} */
+.my-4{
+	margin: 0px !important;
+}
+.p-2  .items-center .justify-between{
+	padding-bottom: 0px !important;
+}
+@media screen and (max-width: 1300px) {
+	/* #web {display: none;} */
+	#mobile {display: block;}
+	/* #mobile {display: 90px;} */
+}
+@media screen and (max-width: 1300px) {
+	/* #web {display: none;} */
+	#respon {padding: 10px;width:100%;display:block;}
+	/* #mobile {display: 90px;} */
+}
